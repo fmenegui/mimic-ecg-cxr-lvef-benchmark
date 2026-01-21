@@ -1,9 +1,13 @@
 # Multimodal MIMIC-ECG-CXR-LVEF-benchmark Dataset
 
 # Description
-This repository provides the public dataset tables (CSV files) used in our work submitted to IEEE EMBC 2026 and currently **under review**.
+This repository provides the public dataset tables (CSV files) used in our work submitted to IEEE EMBC 2026 and currently **under review** processed from the MIMIC-IV dataset.
 
 This dataset links Electrocardiograms (ECG) and Chest Radiographs (CXR) at the patient level under temporal constraints, and includes a binary label for **reduced LVEF** (low_lvef, LVEF < 50%) derived from unstructured clinical notes using a large language model (LLM) - GPT-OSS-20B.
+
+- ECGs were obtained from the [MIMIC-IV-ECG dataset](https://physionet.org/content/mimic-iv-ecg/1.0/).
+- CXR were obtained from the [MIMIC-IV-CXR-JPG dataset](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
+- The clinical notes were obtained from the [MIMIC-IV-Note dataset](https://www.physionet.org/content/mimic-iv-note/2.2/).
 
 ## What is included
 
