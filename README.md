@@ -27,7 +27,7 @@ The `low_lvef` label was created by extracting LVEF information from unstructure
 
 Because labels were obtained via automated text extraction using a LLM, they should be treated as a **silver-standard** reference and may contain errors (e.g., occasional false negatives/positives due to ambiguous or indirect documentation).
 
-## Files and columns
+## File/CSV columns
 
 - `pair_uid`: hash for the full (ECG, CXR, note) association in the row
 - `subject_id_uid`: hashed patient identifier
